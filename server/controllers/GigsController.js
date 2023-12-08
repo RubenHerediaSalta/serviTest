@@ -11,7 +11,7 @@ export const addGig = async (req, res, next) => {
         const date = Date.now();
         renameSync(
           req.files[file].path,
-          "uploads/gigs/" + date + req.files[file].originalname
+          "tmp/uploads/gigs/" + date + req.files[file].originalname
         );
         fileNames.push(date + req.files[file].originalname);
       });
