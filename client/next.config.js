@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
 
   env: {
-    SERVER_URL: "https://servirail2-production.up.railway.app/",
+    SERVER_URL: "https://servirail2-production.up.railway.app",
   },
   images: {
     remotePatterns: [
